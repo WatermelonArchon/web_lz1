@@ -1,0 +1,270 @@
+*{
+    font-family: "Cormorant", serif;
+    margin: 0;   
+}
+body{
+    background-color: rgba(29, 47, 48, 1);
+}
+p{
+    font-family: "Open Sans", sans-serif;
+    color: white; 
+    font-size: 16px;
+    line-height: 150%;
+}
+button{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    padding:  10.25px 29.5px;
+
+}
+h2{
+    color: white;
+    font-size: 48px;
+    font-style: italic;
+    line-height: 100%;
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+/*--------------------------------------Header --------------------------------------------------------*/
+header{
+    background-image: url(assets/Rectangle7.png);
+    background-repeat: no-repeat;
+    max-height: 60px;
+}
+header a{
+    color:white;
+    text-decoration: none;
+}
+.header-icons{
+    padding-bottom: 13px;
+    padding-top: 18px;
+}
+.search-img{
+  padding-right: 64px;
+  padding-left: 296px;
+}
+.header-img{
+    padding-right: 61px;
+    max-height: 60px;
+}
+nav{
+    padding: 17px 0 19px 0;
+}
+.navigation{
+    padding-left: 64px;
+}
+/* -------------------------------------- Preview -------------------------------------------------------- */
+.preview{
+    background-image: linear-gradient(rgba(29, 47, 48, 0.7), rgba(29, 47, 48, 0.7)), url(assets/1_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    max-width: 688px;
+    color: white;
+    border: black 1px;
+    font-size: 60px;
+    padding-top: 115px;
+    padding-bottom: 16px;
+}
+.collection-text{
+    padding-bottom: 24px;
+}
+.explore p{
+    font-weight: bold;
+    color: #BAE249;
+    padding-right: 8px;
+}
+.explore{
+    display:inline-flex;
+    padding-bottom: 115px;
+}
+/* -------------------------------------- Section1 -------------------------------------------------------- */
+.card-pos{
+    margin-top: 60px;
+    display: flex;
+    justify-content:space-between;
+}
+.number{
+    font-family: "Cormorant", serif;
+    color: #899D9D;
+    border-color: #899D9D;
+    border-radius: 100%;
+    border-width: 1px;
+    padding: 0px 3px;
+    border-style: solid;
+    max-width: 18px;
+}
+.collection-text{
+    line-height: 150%;
+    max-width: 635px;
+}
+.card-img{
+    padding: 16px 16px 30px 16px;
+    background-color: #0B1919;
+    max-width: 255px;
+}
+.card{
+    max-width: 255px;
+    height: 493px;
+    border-color: #0B1919;
+    border-width: 1px;
+    border-style: solid;
+}
+h3{
+    color: white;
+    font-size: 24px;
+    line-height: 100%;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+}
+.card-text{
+    max-width: 223px;
+    color: #899D9D;
+    padding-left: 16px;
+}
+.arrows{
+    display: flex;
+    justify-content: center;
+}
+.arrows h3{
+    margin: 26px 30px 57px 30px;
+}
+.arrows img{
+    margin-top: 45px;
+    margin-bottom: 74px;
+}
+.but1{
+    margin-top: 16px;
+}
+.but2{
+    margin-top: 64px;
+}
+.but3{
+    margin-top: 40px;
+}
+.but4{
+    margin-top: 88px;
+}
+/* -------------------------------------- Section2 -------------------------------------------------------- */
+.dark-button{
+    background-color: rgba(29, 47, 48, 1);
+    color: #BAE249;
+    border-color: #BAE249;
+    border-width: 1px;
+}  
+.dark-button-pos{
+    padding-left: 16px;
+}
+.new-arts{
+    margin-bottom:30px;
+}
+.arts{
+    max-width: 825px;
+}
+.arrow-s{
+    display:inline-flex;
+}
+.acid-green{
+    background-image: url(assets/Rectangle69.png);
+    max-width: 255px;
+    max-height: 493px;
+}
+.acid-green h3{
+    color: #1D2F30;
+    padding: 16px 39px 8px 16px;
+}
+.acid-green p{
+    color: #506829
+}
+.read-more{
+    color: #0B1919;
+    font-weight: bold;
+    margin-right: 8px;
+    padding-left: 16px;
+}
+.read-more-text1{
+    margin-left: 16px;
+    margin-right: 16px;
+    padding-bottom: 24px;
+}
+.read-more-text{
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-bottom: 75px;
+}
+.new-arts-pos{
+    display: flex;
+    justify-content:space-between;
+}
+.new-pos{
+    margin-bottom: 60px;
+}
+/* -------------------------------------- Section3 -------------------------------------------------------- */
+.section3{
+    background-image: linear-gradient(rgba(29, 47, 48, 0.7), rgba(29, 47, 48, 0.7)), url(assets/1_1_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.green-button{
+    color: #0B1919;
+    background-color: #BAE249;
+    max-width: 145px;
+    margin-top: 24px;
+    margin-bottom: 60px;
+    padding: 11.5px 26px;
+    border-color: #BAE249;
+    font-weight: bold;
+}
+.project-help{
+    max-width: 825px;
+    max-height: 72px;
+}
+.login-input{
+    padding: 8px 0 8px 0;
+    background-color: white;
+    width: 350px;
+    height: 30px;
+    margin-top: 24px;
+    font-size: 16px;
+    padding-left: 16px;
+}
+.section3 h2{
+    padding-top: 60px;
+    padding-bottom: 16px;
+}
+.help{
+    display: grid;
+}
+/* -------------------------------------- Footer -------------------------------------------------------- */
+.background-links{
+background-image: url(assets/Rectangle669.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.links{
+display: flex;
+justify-content: center;
+padding-right: 30px;
+padding-top: 18px;
+padding-bottom: 18px;
+}
+.footer-text{
+    text-align: center;
+    font-size: 12px;
+    color: #899D9D;
+}
+.insta{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.facebook{
+    margin-right: 30px; 
+}
