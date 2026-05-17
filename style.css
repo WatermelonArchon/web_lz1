@@ -73,9 +73,6 @@ h1{
     padding-top: 115px;
     padding-bottom: 16px;
 }
-.collection-text{
-    padding-bottom: 24px;
-}
 .explore p{
     font-weight: bold;
     color: #BAE249;
@@ -104,6 +101,7 @@ h1{
 .collection-text{
     line-height: 150%;
     max-width: 635px;
+    padding-bottom: 24px;
 }
 .card-img{
     padding: 16px 16px 30px 16px;
