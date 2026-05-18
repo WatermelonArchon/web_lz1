@@ -15,7 +15,6 @@ button{
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     padding:  10.25px 29.5px;
-
 }
 h2{
     color: white;
@@ -35,11 +34,18 @@ h2{
 header{
     background-image: url(assets/Rectangle7.png);
     background-repeat: no-repeat;
-    max-height: 60px;
 }
 header a{
     color:white;
     text-decoration: none;
+}
+header a:hover {
+  color: #BAE249;
+}
+header a:active {
+  border-color: #BAE249;
+  border-width: 1px;
+  border-style: solid;
 }
 .header-icons{
     padding-bottom: 13px;
@@ -51,13 +57,12 @@ header a{
 }
 .header-img{
     padding-right: 61px;
-    max-height: 60px;
 }
 nav{
-    padding: 17px 0 19px 0;
+    margin: 17px 0 19px 0;
 }
 .navigation{
-    padding-left: 64px;
+    margin-left: 64px;
 }
 /* -------------------------------------- Preview -------------------------------------------------------- */
 .preview{
@@ -110,7 +115,7 @@ h1{
 }
 .card{
     max-width: 255px;
-    height: 493px;
+    max-height: 493px;
     border-color: #0B1919;
     border-width: 1px;
     border-style: solid;
@@ -151,16 +156,32 @@ h3{
 .but4{
     margin-top: 88px;
 }
-/* -------------------------------------- Section2 -------------------------------------------------------- */
 .dark-button{
     background-color: rgba(29, 47, 48, 1);
     color: #BAE249;
     border-color: #BAE249;
-    border-width: 1px;
-}  
+    border-width: 1px;}  
+.dark-button:hover 
+{
+  background-color: #BAE249;
+  color: #0B1919;
+}
+.dark-button:focus {
+  border: double #83A440;
+}
+.dark-button:active {
+  background-color: #688B05;
+  color: #0B1919;
+}
+.dark-button:disabled {
+  color: #899D9D;            
+  border-color: #899D9D;    
+}
 .dark-button-pos{
     padding-left: 16px;
+    padding-bottom: 18px;
 }
+/* -------------------------------------- Section2 -------------------------------------------------------- */
 .new-arts{
     margin-bottom:30px;
 }
@@ -221,18 +242,41 @@ h3{
     border-color: #BAE249;
     font-weight: bold;
 }
+.green-button:hover 
+{
+  background-color: #91AC46;
+  border-color: #91AC46;
+  color: #0B1919;
+}
+.green-button:focus {
+  border: double #83A440;
+}
+.green-button:active {
+  background-color: #688B05;
+  color: #0B1919;
+}
+.green-button:disabled {
+  color: #899D9D;            
+  border-color: #899D9D;
+  color: #899D9D;   
+}
 .project-help{
     max-width: 825px;
     max-height: 72px;
 }
 .login-input{
-    padding: 8px 0 8px 0;
+    padding: 7.5px 0 7.5px 16px;
     background-color: white;
-    width: 350px;
+    max-width: 334px;
     height: 30px;
     margin-top: 24px;
     font-size: 16px;
-    padding-left: 16px;
+    font-family: "Open Sans", sans-serif;
+    border: 0;
+}
+.login-input:hover {
+  background-color: #899D9D;
+  color: #FFFFFF;
 }
 .section3 h2{
     padding-top: 60px;
