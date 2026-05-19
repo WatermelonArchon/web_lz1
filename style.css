@@ -126,6 +126,7 @@ h3{
     line-height: 100%;
     padding-top: 16px;
     padding-bottom: 8px;
+    padding-left: 16px;
 }
 .card-text{
     max-width: 223px;
